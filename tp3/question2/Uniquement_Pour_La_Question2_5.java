@@ -43,5 +43,10 @@ public class Uniquement_Pour_La_Question2_5 extends junit.framework.TestCase{
         // assertTrue(p1.equals(p2) && p2.equals(p1)); // etc ...
         // assertTrue(p1.equals(p2) && p2.equals(p3) && p1.equals(p3));
         // assertTrue(p2.equals(p3) && p3.equals(p4) && p2.equals(p4));
-    }
+    } 
+    //cette reponse est correcte si on ne veut pas tester le type de l objet
+    //la regle a retenir est: deux piles sont egales si elles ont la meme taille
+    //et la meme capacite et les elements contenues soient identiques
+    //on teste l egalite que sur la facon dont elle est ecrite a l ecran
+    //on ne teste pas la taille ni la capacite ni le type de l objet
 }
